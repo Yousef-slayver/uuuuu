@@ -1,0 +1,182 @@
+body {
+  background-color: black;
+}
+
+.log {
+  margin-right: 20px;
+  width: 150px;
+}
+
+.logo {
+  margin-right: 20px;
+  width: 150px;
+}
+
+.wave {
+  width: 983px;
+  margin-left: -200px;
+  margin-top: -150px;
+  opacity: 50%;
+  position: absolute;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.container {
+  background-color: #2D2D2D;
+  width: 666px;
+  height: 767px;
+  position: relative;
+  border-radius: 20px;
+  margin: auto;
+  gap: 100px;
+}
+
+.pls {
+  font-family: 'Otomanopee One';
+  color: #FFFFFF;
+  font-size: 50px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.name {
+  width: 554px;
+  height: 66px;
+  margin-top: 50px;
+  margin-left: 30px;
+  background-color: #5C5959;
+  color: white;
+  font-size: 30px;
+}
+
+.gmail {
+  width: 554px;
+  height: 66px;
+  margin-top: 50px;
+  margin-left: 30px;
+  background-color: #5C5959;
+  color: white;
+  font-size: 30px;
+}
+
+.age {
+  width: 242px;
+  height: 66px;
+  margin-top: 50px;
+  margin-left: 30px;
+  background-color: #5C5959;
+  color: white;
+  font-size: 30px;
+}
+
+.selc {
+  width: 242px;
+  height: 66px;
+  margin-top: 50px;
+  margin-left: 65px;
+  background-color: #5C5959;
+  color: white;
+  font-size: 30px;
+}
+
+.weight {
+  width: 242px;
+  height: 66px;
+  margin-top: 50px;
+  margin-left: 30px;
+  background-color: #5C5959;
+  color: white;
+  font-size: 30px;
+}
+
+.height {
+  width: 242px;
+  height: 66px;
+  margin-top: 50px;
+  margin-left: 65px;
+  background-color: #5C5959;
+  color: white;
+  font-size: 30px;
+}
+
+.rct {
+  width: 1405px;
+  margin-left: -150px;
+  margin-top: -850px;
+  overflow-x: hidden;
+}
+
+.donate-now {
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+  margin-left: 90px;
+}
+
+.donate-now li {
+  float: left;
+  width: 242px;
+  height: 66px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.donate-now label,
+.donate-now input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.donate-now input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.donate-now label {
+  padding: 5px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  z-index: 90;
+  background: #DDD;
+}
+
+.donate-now input[type="radio"]:checked + label {
+  background-color: #2A62A7;
+}
+
+.donate-now input[type="radio"]#male:checked + label {
+  background-color: #2A62A7;
+}
+
+.donate-now input[type="radio"]#female:checked + label {
+  background-color: #FF69B4;
+}
+
+.donate-now label:hover {
+  background: #CCC;
+}
+
+.sub {
+  background-image: linear-gradient(to right, #3DA0B7, #338AB3, #17639E, #0C4E98);
+  color: white;
+  font-size: 46px;
+  width: 254px;
+  height: 70px;
+  border-radius: 20px;
+  padding: 10px, 65px, 10px, 65px;
+  gap: 10px;
+  margin-left: 300px;
+  margin-top: 50px;
+  position: relative;
+}

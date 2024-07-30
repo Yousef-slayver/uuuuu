@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .log {
+    margin-right: 20px;
+    width: 150px;
+  }
+  
+  .logo {
+    margin-right: 20px;
+    width: 150px;
+  }
+  
+  .wave {
+    width: 983px;
+    margin-left: -200px;
+    margin-top: -150px;
+    opacity: 50%;
+    position: absolute;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  .container {
+    background-color: #2D2D2D;
+    width: 666px;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    margin: auto;
+    gap: 100px;
+  }
+  
+  .pls {
+    font-family: 'Otomanopee One';
+    color: #FFFFFF;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .name {
+    width: 554px;
+    height: 66px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #5C5959;
+    color: white;
+    font-size: 30px;
+  }
+  
+ .rct {
+    width: 1405px;
+    margin-left: -100px;
+    margin-top: -850px;
+    overflow-x: hidden;
+  }
+
+  .donnot {
+    color: white;
+    font-size: 45px;
+    margin-right: 30px;
+  }
+  .sub {
+    background-image: linear-gradient(to right, #3DA0B7, #338AB3, #17639E, #0C4E98);
+    color: white;
+    font-size: 46px;
+    width: 254px;
+    height: 70px;
+    border-radius: 20px;
+    padding: 10px, 65px, 10px, 65px;
+    gap: 10px;
+    margin-left: 300px;
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .anch {
+    color: #2A62A7;
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: 20px;
+  }

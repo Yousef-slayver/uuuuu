@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f3f5f9;
+}
+
+.navbar {
+  font-family: 'Otomanopee One';
+  display: flex;
+  align-items: center;
+  background: #000000;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  margin-right: 20px;
+  width: 150px;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li.spacer {
+  flex-grow: 1;
+}
+
+.navbar ul li a {
+  color: #bdb8d7;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  transition: background-color 0.3s;
+  font-size: 30px;
+}
+
+.butnz:hover {
+  background-color: #4643ff;
+  color: #fff;
+}
+
+.butns1 {
+  border: 2px solid white;
+}
+
+.butns2 {
+  background-color: #0C4E98;
+}
+
+.Social-media{
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  margin-left: 1050px;
+  opacity: 5%;
+  display: none;
+}
+.soc{
+  display: flex;
+  background: #fff;
+  height: 45px;
+  width: 45px;
+  margin: 0 15px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 6px 6px 10px -1px rgba(0,124,196,0.15),
+              -6px -6px 10px -1px rgba(255,255,255,0.7);
+  border: 1px solid rgba(0, 124, 196, 0);
+  transition: transform 0.5s
+}
+.soc i{
+  font-size: 50px;
+  color: #777;
+  transition: transform 0.5s;
+}
+.soc:hover{
+  box-shadow:inset 4px 4px 6px -2px rgba(0,0,0,0.2),
+              inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                    -0.5px -0.5px 0px -1px rgba(255,255,255,1),
+                    0.5px 0.5px 0px rgba(0,0,0,0.15),
+                    0px 12px 10px -10px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0, 124, 196, 0.1);
+  transform: translateY(2px);
+}
+.soc:hover i{
+  transform: scale(0.90);
+}
+.soc:hover .fa-brands .fa-facebook-f{
+  color: #3b5998;
+}
+.soc:hover .fa-brands .fa-instagram{
+  color: #f143c8;
+}
+.soc:hover .fa-brands .fa-tiktok{
+  color: #25003a;
+}
+
+
+body {
+  background: url(assets/images/background.png) no-repeat;
+  background-size: 100%;
+  height: auto;
+}
+
+/* .sign-in {
+  justify-content: space-between;
+  1500px;
+} */
+
+.rect {
+  padding-right: 1000px;
+}
+
+.recta {
+  width: 600px;
+  height: 350px;
+  margin-top: 500px;
+  margin-left: 663px;
+}
+
+.slogan {
+  width: 400px;
+  top: 233px;
+  left: 71px;
+  margin-top: -350px;
+  margin-left: 50px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.btn1 {
+  background-image: linear-gradient(to right, #3DA0B7, #338AB3, #17639E, #0C4E98);
+  color: white;
+  width: 295px;
+  height: 90px;
+  border-radius: 20px;
+  font-size: 46px;
+  margin-left: 164px;
+  margin-top: 150px;
+}
+
+.newtra {
+  width: 200px;
+  margin-left: 1000px; 
+  margin-top: -80px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 24px;
+}
+
+.social-media a:hover {
+  color: #3b5998;
+}
